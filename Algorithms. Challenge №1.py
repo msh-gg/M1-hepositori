@@ -4,9 +4,9 @@
 
 import os
 
-filename = input("Введите путь к файлу: ")
+filename = input("Введіть шлях до файлу: ")
 if not os.path.exists(filename):
-    print("Указанный файл не существует")
+    print("Вказаного файлу не існує")
 else:
     with open(filename , encoding = "utf8") as file:
         indata = (file.read())
